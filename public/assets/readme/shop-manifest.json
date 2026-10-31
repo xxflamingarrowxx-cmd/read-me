@@ -1,0 +1,593 @@
+{
+ "items": [
+  {
+   "id": "worn-pine-shelf",
+   "category": "Shelving",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "shelf",
+   "file": "shop/starter/worn-pine-shelf.png",
+   "size": [
+    212,
+    380
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "patched-armchair",
+   "category": "Reading chair",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "floor",
+   "file": "shop/starter/patched-armchair.png",
+   "size": [
+    231,
+    288
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "cracked-wall-clock",
+   "category": "Clock",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "wall",
+   "file": "shop/starter/cracked-wall-clock.png",
+   "size": [
+    216,
+    313
+   ],
+   "transparent": true,
+   "live_clock": true
+  },
+  {
+   "id": "frayed-rug",
+   "category": "Rug",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "floor-under-shelf",
+   "file": "shop/rugs-horizontal/starter-frayed-rug-250pts.png",
+   "size": [
+    682,
+    369
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "rusty-key",
+   "category": "Souvenirs",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "shelf-top",
+   "file": "shop/starter/rusty-key.png",
+   "size": [
+    160,
+    260
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "worn-peeling-wall",
+   "category": "Walls",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "wall-background",
+   "file": "shop/starter/worn-peeling-wall.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "cracked-floor",
+   "category": "Flooring",
+   "tier": 0,
+   "price_points": 250,
+   "placement_slot": "floor-background",
+   "file": "shop/starter/cracked-floor.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "pine-plank-shelf",
+   "category": "Shelving",
+   "tier": 1,
+   "price_points": 500,
+   "placement_slot": "shelf",
+   "file": "shop/shelving/1-pine-plank-shelf-500pts.png",
+   "size": [
+    212,
+    380
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "white-cottage-shelf",
+   "category": "Shelving",
+   "tier": 2,
+   "price_points": 1500,
+   "placement_slot": "shelf",
+   "file": "shop/shelving/2-white-cottage-shelf-1500pts.png",
+   "size": [
+    214,
+    380
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "oak-library-shelf",
+   "category": "Shelving",
+   "tier": 3,
+   "price_points": 3500,
+   "placement_slot": "shelf",
+   "file": "shop/shelving/3-oak-library-shelf-3500pts.png",
+   "size": [
+    216,
+    381
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "dark-walnut-shelf",
+   "category": "Shelving",
+   "tier": 4,
+   "price_points": 6500,
+   "placement_slot": "shelf",
+   "file": "shop/shelving/4-dark-walnut-shelf-6500pts.png",
+   "size": [
+    221,
+    404
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "gilded-heirloom-shelf",
+   "category": "Shelving",
+   "tier": 5,
+   "price_points": 10000,
+   "placement_slot": "shelf",
+   "file": "shop/shelving/5-gilded-heirloom-shelf-10000pts.png",
+   "size": [
+    218,
+    403
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "beanbag",
+   "category": "Reading chair",
+   "tier": 1,
+   "price_points": 500,
+   "placement_slot": "floor",
+   "file": "shop/chairs/1-beanbag-500pts.png",
+   "size": [
+    231,
+    228
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "rocking-chair",
+   "category": "Reading chair",
+   "tier": 2,
+   "price_points": 1500,
+   "placement_slot": "floor",
+   "file": "shop/chairs/2-rocking-chair-1500pts.png",
+   "size": [
+    212,
+    290
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "green-velvet-armchair",
+   "category": "Reading chair",
+   "tier": 3,
+   "price_points": 3500,
+   "placement_slot": "floor",
+   "file": "shop/chairs/3-green-velvet-armchair-3500pts.png",
+   "size": [
+    231,
+    288
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "leather-wingback",
+   "category": "Reading chair",
+   "tier": 4,
+   "price_points": 6500,
+   "placement_slot": "floor",
+   "file": "shop/chairs/4-leather-wingback-6500pts.png",
+   "size": [
+    226,
+    288
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "golden-throne",
+   "category": "Reading chair",
+   "tier": 5,
+   "price_points": 10000,
+   "placement_slot": "floor",
+   "file": "shop/chairs/5-golden-throne-10000pts.png",
+   "size": [
+    221,
+    344
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "wooden-wall-clock",
+   "category": "Clock",
+   "tier": 1,
+   "price_points": 500,
+   "placement_slot": "wall",
+   "file": "shop/clocks/1-wooden-wall-clock-500pts.png",
+   "size": [
+    216,
+    313
+   ],
+   "transparent": true,
+   "live_clock": true
+  },
+  {
+   "id": "cafe-clock",
+   "category": "Clock",
+   "tier": 2,
+   "price_points": 1500,
+   "placement_slot": "wall",
+   "file": "shop/clocks/2-cafe-clock-1500pts.png",
+   "size": [
+    218,
+    273
+   ],
+   "transparent": true,
+   "live_clock": true
+  },
+  {
+   "id": "cuckoo-clock",
+   "category": "Clock",
+   "tier": 3,
+   "price_points": 3500,
+   "placement_slot": "wall",
+   "file": "shop/clocks/3-cuckoo-clock-3500pts.png",
+   "size": [
+    217,
+    396
+   ],
+   "transparent": true,
+   "live_clock": true
+  },
+  {
+   "id": "grandfather-clock",
+   "category": "Clock",
+   "tier": 4,
+   "price_points": 6500,
+   "placement_slot": "wall",
+   "file": "shop/clocks/4-grandfather-clock-6500pts.png",
+   "size": [
+    183,
+    468
+   ],
+   "transparent": true,
+   "live_clock": true
+  },
+  {
+   "id": "gold-pocket-watch-clock",
+   "category": "Clock",
+   "tier": 5,
+   "price_points": 10000,
+   "placement_slot": "wall",
+   "file": "shop/clocks/5-gold-pocket-watch-clock-10000pts.png",
+   "size": [
+    222,
+    298
+   ],
+   "transparent": true,
+   "live_clock": true
+  },
+  {
+   "id": "braided-rag-rug",
+   "category": "Rug",
+   "tier": 1,
+   "price_points": 750,
+   "placement_slot": "floor-under-shelf",
+   "file": "shop/rugs-horizontal/braided-rag-rug-750pts.png",
+   "size": [
+    656,
+    342
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "red-plaid-rug",
+   "category": "Rug",
+   "tier": 2,
+   "price_points": 2000,
+   "placement_slot": "floor-under-shelf",
+   "file": "shop/rugs-horizontal/red-plaid-rug-2000pts.png",
+   "size": [
+    654,
+    336
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "persian-rug",
+   "category": "Rug",
+   "tier": 3,
+   "price_points": 5000,
+   "placement_slot": "floor-under-shelf",
+   "file": "shop/rugs-horizontal/persian-rug-5000pts.png",
+   "size": [
+    654,
+    357
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "blue-library-rug",
+   "category": "Rug",
+   "tier": 4,
+   "price_points": 10000,
+   "placement_slot": "floor-under-shelf",
+   "file": "shop/rugs-horizontal/blue-library-rug-10000pts.png",
+   "size": [
+    675,
+    305
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "gold-fringed-royal-rug",
+   "category": "Rug",
+   "tier": 5,
+   "price_points": 15000,
+   "placement_slot": "floor-under-shelf",
+   "file": "shop/rugs-horizontal/gold-fringed-royal-rug-15000pts.png",
+   "size": [
+    702,
+    339
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "rye-bread-in-net",
+   "category": "Souvenirs",
+   "tier": 1,
+   "price_points": 500,
+   "placement_slot": "shelf-top",
+   "file": "shop/souvenirs/1-rye-bread-in-net-500pts.png",
+   "size": [
+    238,
+    261
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "message-in-bottle",
+   "category": "Souvenirs",
+   "tier": 2,
+   "price_points": 1500,
+   "placement_slot": "shelf-top",
+   "file": "shop/souvenirs/2-message-in-bottle-1500pts.png",
+   "size": [
+    126,
+    279
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "wizard-wand",
+   "category": "Souvenirs",
+   "tier": 3,
+   "price_points": 3500,
+   "placement_slot": "shelf-top",
+   "file": "shop/souvenirs/3-wizard-wand-3500pts.png",
+   "size": [
+    220,
+    275
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "bloody-knife",
+   "category": "Souvenirs",
+   "tier": 4,
+   "price_points": 6500,
+   "placement_slot": "shelf-top",
+   "file": "shop/souvenirs/4-bloody-knife-6500pts.png",
+   "size": [
+    199,
+    239
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "golden-ticket-frame",
+   "category": "Souvenirs",
+   "tier": 5,
+   "price_points": 10000,
+   "placement_slot": "shelf-top",
+   "file": "shop/souvenirs/5-golden-ticket-frame-10000pts.png",
+   "size": [
+    252,
+    221
+   ],
+   "transparent": true,
+   "live_clock": false
+  },
+  {
+   "id": "cream-plaster",
+   "category": "Walls",
+   "tier": 1,
+   "price_points": 500,
+   "placement_slot": "wall-background",
+   "file": "shop/walls/1-cream-plaster-500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "sage-wainscot",
+   "category": "Walls",
+   "tier": 2,
+   "price_points": 1500,
+   "placement_slot": "wall-background",
+   "file": "shop/walls/2-sage-wainscot-1500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "navy-stripe",
+   "category": "Walls",
+   "tier": 3,
+   "price_points": 3500,
+   "placement_slot": "wall-background",
+   "file": "shop/walls/3-navy-stripe-3500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "dark-academia",
+   "category": "Walls",
+   "tier": 4,
+   "price_points": 6500,
+   "placement_slot": "wall-background",
+   "file": "shop/walls/4-dark-academia-6500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "gold-damask",
+   "category": "Walls",
+   "tier": 5,
+   "price_points": 10000,
+   "placement_slot": "wall-background",
+   "file": "shop/walls/5-gold-damask-10000pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "worn-pine",
+   "category": "Flooring",
+   "tier": 1,
+   "price_points": 500,
+   "placement_slot": "floor-background",
+   "file": "shop/floors/1-worn-pine-500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "checker-tile",
+   "category": "Flooring",
+   "tier": 2,
+   "price_points": 1500,
+   "placement_slot": "floor-background",
+   "file": "shop/floors/2-checker-tile-1500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "honey-herringbone",
+   "category": "Flooring",
+   "tier": 3,
+   "price_points": 3500,
+   "placement_slot": "floor-background",
+   "file": "shop/floors/3-honey-herringbone-3500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "dark-walnut-parquet",
+   "category": "Flooring",
+   "tier": 4,
+   "price_points": 6500,
+   "placement_slot": "floor-background",
+   "file": "shop/floors/4-dark-walnut-parquet-6500pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  },
+  {
+   "id": "gold-marble",
+   "category": "Flooring",
+   "tier": 5,
+   "price_points": 10000,
+   "placement_slot": "floor-background",
+   "file": "shop/floors/5-gold-marble-10000pts.png",
+   "size": [
+    244,
+    720
+   ],
+   "transparent": false,
+   "live_clock": false
+  }
+ ],
+ "note": "Points only, no cash purchases. Starter tier is 250 points. Wall and floor files are texture swatches (not transparent)."
+}
