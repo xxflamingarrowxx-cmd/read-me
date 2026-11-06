@@ -61,6 +61,14 @@ async function database(): Promise<Sql> {
   return getSql();
 }
 
+async function ensureProfile(sql: Sql, userId: string) {
+  await sql`
+    insert into profiles (user_id, display_name)
+    values (${userId}, 'Reader')
+    on conflict (user_id) do nothing
+  `;
+}
+
 export async function zoneOrUtc(sql: Sql, zone: string): Promise<string> {
   const candidate = /^[A-Za-z0-9_+\-/]{1,64}$/.test(zone) ? zone : "UTC";
   try {
@@ -139,6 +147,7 @@ export const reportReview = createServerFn({ method: "POST" })
     if (!isReviewReason(data.reason)) return { ok: false, error: "Pick a reason." };
     const sql = await database();
     const me = context.userId;
+    await ensureProfile(sql, me);
     const recent = await sql.query<{ n: number }>(
       `select count(*)::int as n from rate_events
        where user_id = $1 and kind = 'review-report'
