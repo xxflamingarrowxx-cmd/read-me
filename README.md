@@ -17,6 +17,4 @@ npm run dev
 
 ## Beta on GitHub
 
-Pushing a tag named like `v0.1.0-beta.2` runs the typecheck and the production build, then publishes a GitHub prerelease. The release is created only if the build passes.
-
-`v0.1.0-beta.2` is the build that went through a full pass of sign-in, naming, shelves, points, the shop, friends, notes, and reports.
+`v0.1.0-beta.2` is the tested prerelease: sign-in, naming, shelves, points, the shop, friends, notes, and reports. `npm run build` checks the production build.
