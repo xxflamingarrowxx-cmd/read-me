@@ -489,6 +489,15 @@ export const deleteAccount = createServerFn({ method: "POST" })
     const me = context.userId;
     await sql`delete from rate_events where user_id = ${me}`;
     await sql`delete from profiles where user_id = ${me}`;
+    await sql`delete from "session" where "userId" = ${me}`;
     await sql`delete from "user" where id = ${me}`;
+    try {
+      const { setCookie } = await import("@tanstack/react-start/server");
+      for (const name of ["__Host-grok-auth.session_token", "__Host-grok-auth.session_data"]) {
+        setCookie(name, "", { path: "/", httpOnly: true, secure: true, sameSite: "lax", maxAge: 0 });
+      }
+    } catch {
+      // The row is already gone, so the next request is signed out either way.
+    }
     return { ok: true };
   });

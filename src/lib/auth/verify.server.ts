@@ -1,4 +1,5 @@
 import { getRequest } from "@tanstack/react-start/server";
+import { getSql } from "@/lib/db";
 import { gateIdentityEnabled } from "./gate-identity.server";
 import { auth, authConfigured } from "./server";
 
@@ -67,6 +68,11 @@ export async function getSessionUser(
   }
   const session = await auth.api.getSession({ headers });
   if (!session?.user) return null;
+  // The session cookie cache can outlive a deleted account. Do not trust it
+  // unless the reader row is still there, or a wiped shelf comes back.
+  const sql = await getSql();
+  const rows = await sql<{ id: string }>`select id from "user" where id = ${session.user.id}`;
+  if (!rows[0]) return null;
   return { id: session.user.id, email: session.user.email ?? null };
 }
 
